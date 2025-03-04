@@ -261,6 +261,12 @@ header .button{
     margin: 0 20px;
 }
 
+.green-underline{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ADFF2F;
+}
 
 /* card */
 .card{
