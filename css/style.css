@@ -116,13 +116,15 @@ a{
 /* SIDEBAR */
 /***********/
 /* logo */
-#logo, #small-logo{
+#logo{
     height: 100px;
     padding: 20px;
 }
 
 #small-logo{
     display: none;
+    height: 75px;
+    padding: 20px;
 }
 
 #logo img, #small-logo img{
@@ -472,4 +474,37 @@ header .button:hover{
     .playing-save{
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 768px){
+    .card{
+        width: 95%;
+    }
+
+    #logo{
+        display: none;
+    }
+    #small-logo{
+        display: block;
+    }
+    .hide-mobile, #main-sidelist .hide-mobile{
+        display: none;
+    }
+
+    #bottom-sidebar hr{
+        display: none;
+    }
+
+    .download-icon{
+        margin-left: 2px;
+        margin-right: 0;
+    }
+
+    .sidebar{
+        width: 70px;
+    }
+    .content{
+        width: calc(100% - 70px);
+    }
+
 }
