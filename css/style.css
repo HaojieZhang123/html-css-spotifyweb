@@ -403,3 +403,15 @@ header .button:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+.menu li:hover{
+    color: white;
+}
+
+#main-sidelist li:hover, .sidebar-section-title:hover, .creation-pl:hover, #playlist-list li:hover, #download:hover{
+    color: white;
+}
+
+.creation-pl:hover .create-playlist{
+    background-color: white;
+}
