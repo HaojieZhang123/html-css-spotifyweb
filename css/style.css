@@ -20,6 +20,7 @@ header{
     top: 0;
     height: 100px;
     background-color: #080B12;
+    z-index: 1;
 }
 
 footer{
@@ -370,16 +371,14 @@ header .button{
     background-color: #C1C1C1;
     border-radius: 2px;
 }
+
+/* Footer volume */
 .volume-bar{
     background-color: #5A5A5A;
     height: 4px;
     width: 50%;
     border-radius: 2px;
 }
-
-
-
-/* Footer volume */
 
 /**********/
 /* COLORS */
@@ -390,4 +389,12 @@ header .button{
 
 .grey-text{
     color: #6C6F74;
+}
+
+/**************/
+/* Animations */
+/**************/
+.album-hover:hover, .artist-hover:hover{
+    opacity: 1;
+    transition: 0.3s;
 }
