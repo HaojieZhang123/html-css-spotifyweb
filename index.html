@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
@@ -52,40 +55,54 @@
                     </li>
                 </ul>
     
-                <div id="playlist" class="hide-mobile">
-                    <div>
-                        Playlist
+                <div id="side-playlist" class="hide-mobile">
+                    <div class="sidebar-section-title">
+                        PLAYLIST
                     </div>
                     <a href="#">
                         <div class="create-playlist">
-                            +
+                            <div class="plus">+</div>
                         </div>
                         Crea Playlist
                     </a>
 
                     <ul id="playlist-list">
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
                     </ul>
                 </div>
     
             </div>
 
-            <div class="bottom-sidebar">
-                <div>
-                    <div>
+            <div id="bottom-sidebar">
+                <div id="download">
+                    <div class="download-icon">
                         <img src="./img/download.svg" alt="Download icon">
                     </div>
                     <div class="hide-mobile">Installa app</div>
                 </div>
                 <hr>
-                <div>
-                    <div>
+                <div id="user-profile">
+                    <div class="pfp">
                         <img src="./img/profile.svg" alt="pfp icon">
                     </div>
                     <div class="hide-mobile">John Doe</div>
@@ -96,8 +113,12 @@
         </div>
 
         <div class="content">
-            <header>
-
+            <header class="d-flex justify-end align-center">
+                <a href="#">
+                    <div class="button">
+                        EFFETTUA L'UPGRADE
+                    </div>
+                </a>
             </header>
             
         </div>
