@@ -25,6 +25,7 @@ header{
 footer{
     height: 100px;
     background-color: #222222;
+    padding: 20px 10px;
 }
 
 .sidebar{
@@ -58,6 +59,10 @@ a{
     flex-direction: column;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
 .justify-end{
     justify-content: flex-end;
 }
@@ -66,9 +71,21 @@ a{
     justify-content: space-between;
 }
 
+.justify-around{
+    justify-content: space-around;
+}
+
 .align-center{
     align-content: center;
     align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 /* Elements */
@@ -180,4 +197,78 @@ a{
 /**********/
 header{
     
+}
+
+/**********/
+/* FOOTER */
+/**********/
+.footer-side{
+    width: 250px;
+}
+.footer-player{
+    width: calc(100vw - 500px);
+}
+
+/* Footer song info */
+.playing-cover{
+    height: 50px;
+    width: 50px;
+}
+.playing-cover img{
+    width: 100%;
+}
+.playing-info{
+    padding: 0px 10px;
+}
+.playing-save{
+    width: 20%;
+}
+
+/* Footer playing */
+.playing-controls{
+    width: 40%;
+    min-width: 200px;
+}
+
+.playing-progress{
+    width: 100%;
+    padding: 10px 0;
+}
+.time-stamp{
+    width: 10%;
+    min-width: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+.progress-bar{
+    background-color: #5A5A5A;
+    height: 4px;
+    width: 80%;
+    border-radius: 2px;
+}
+.active-bar{
+    width: 20%;
+    background-color: #C1C1C1;
+    border-radius: 2px;
+}
+.volume-bar{
+    background-color: #5A5A5A;
+    height: 4px;
+    width: 50%;
+    border-radius: 2px;
+}
+
+
+
+/* Footer volume */
+
+/**********/
+/* COLORS */
+/**********/
+.white-text{
+    color: white;
+}
+
+.grey-text{
+    color: #6C6F74;
 }
