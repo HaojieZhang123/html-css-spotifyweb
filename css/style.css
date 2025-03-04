@@ -465,3 +465,11 @@ header .button:hover{
     }
 }
 
+@media screen and (max-width: 990px){
+    .card{
+        width: 48%;
+    }
+    .playing-save{
+        flex-direction: column;
+    }
+}
