@@ -9,23 +9,27 @@
 </head>
 <body>
     <main>
-        <div class="sidebar">
+        <div class="sidebar d-flex direction-column justify-between">
 
             <div class="top-sidebar">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="Logo">
+                <div id="logo">
+                    <a href="#">
+                        <img src="./img/logo.svg" alt="Logo">
+                    </a>
                 </div>
-                <div class="smaill-logo">
-                    <img src="./img/logo-small.svg" alt="Small logo">
+                <div id="small-logo">
+                    <a href="#">
+                        <img src="./img/logo-small.svg" alt="Small logo">
+                    </a>
                 </div>
     
-                <ul>
+                <ul id="main-sidelist">
                     <li>
                         <a href="#">
                             <div>
                                 <img src="./img/home.svg" alt="Home icon">
                             </div>
-                            Home
+                            <div class="hide-mobile">Home</div>
                         </a>
                     </li>
                     <li>
@@ -33,7 +37,8 @@
                             <div>
                                 <img src="./img/search.svg" alt="Search icon">
                             </div>
-                            Cerca
+                            <div class="hide-mobile">Cerca</div>
+
                         </a>
                     </li>
                     <li>
@@ -41,30 +46,34 @@
                             <div>
                                 <img src="./img/libreria.svg" alt="Library icon">
                             </div>
-                            Libreria
+                            <div class="hide-mobile">Libreria</div>
+
                         </a>
                     </li>
                 </ul>
     
-                <div>
-                    Playlist
+                <div id="playlist" class="hide-mobile">
+                    <div>
+                        Playlist
+                    </div>
                     <a href="#">
                         <div class="create-playlist">
                             +
                         </div>
                         Crea Playlist
                     </a>
+
+                    <ul id="playlist-list">
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                    </ul>
                 </div>
     
-                <ul>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                </ul>
             </div>
 
             <div class="bottom-sidebar">
@@ -72,14 +81,15 @@
                     <div>
                         <img src="./img/download.svg" alt="Download icon">
                     </div>
-                    Installa app
+                    <div class="hide-mobile">Installa app</div>
                 </div>
                 <hr>
                 <div>
                     <div>
                         <img src="./img/profile.svg" alt="pfp icon">
                     </div>
-                    John Doe
+                    <div class="hide-mobile">John Doe</div>
+
                 </div>
             </div>
 
