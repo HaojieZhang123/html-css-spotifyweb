@@ -95,6 +95,7 @@ a{
     align-items: center;
 }
 
+
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -350,6 +351,10 @@ header .button{
     min-width: 200px;
 }
 
+.play{
+    font-size: 30px;
+}
+
 .playing-progress{
     width: 100%;
     padding: 10px 0;
@@ -365,11 +370,23 @@ header .button{
     height: 4px;
     width: 80%;
     border-radius: 2px;
+    position: relative;i
 }
 .active-bar{
     width: 20%;
     background-color: #C1C1C1;
     border-radius: 2px;
+}
+
+.white-dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: -2px;
+    display: none;
 }
 
 /* Footer volume */
@@ -378,6 +395,7 @@ header .button{
     height: 4px;
     width: 50%;
     border-radius: 2px;
+    position: relative;
 }
 
 /**********/
@@ -414,4 +432,28 @@ header .button:hover{
 
 .creation-pl:hover .create-playlist{
     background-color: white;
+}
+
+.playing-info .song-name:hover, .playing-save div:hover{
+    color: white;
+}
+.playing-info .song-name:hover{
+    text-decoration: underline;
+}
+
+.play:hover{
+    transform: scale(1.2);
+}
+.progress-bar:hover .active-bar{
+    background-color: #ADFF2F;
+}
+.progress-bar:hover .white-dot{
+    display: block;
+}
+
+.volume-bar:hover .active-bar{
+    background-color: #ADFF2F;
+}
+.volume-bar:hover .white-dot{
+    display: block;
 }
