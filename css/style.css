@@ -55,7 +55,11 @@ li{
 h2{
     font-size: 30px;
     font-weight: 900;
-    padding: 35px 0;
+    padding-top: 35px;
+}
+
+p{
+    padding-top: 10px;
 }
 
 a{
@@ -212,8 +216,8 @@ a{
 /**********/
 /* HEADER */
 /**********/
-header{
-    
+header .button{
+    margin: 0 10px;
 }
 
 /***********/
@@ -272,6 +276,10 @@ header{
 }
 .artist-cover img, .artist-hover{
     border-radius: 50%;
+}
+
+#recently-played, #created-for, #artists{
+    padding-top: 30px;
 }
 
 /**********/
