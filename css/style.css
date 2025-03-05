@@ -506,6 +506,31 @@ header .button{
     margin-left: 5px;
 }
 
+/* Playlist header */
+#list-header{
+    width: 100%;
+    padding: 10px 0;
+}
+.left-list{
+    width: 40%;
+}
+.number{
+    width: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+.song{
+    min-width: 200px;
+}
+.center-list{
+    width: 30%;
+}
+.right-list{
+    width: 100px;
+    text-align: right;
+}
+
+/* Playlist list items */
 
 
 /**********/
