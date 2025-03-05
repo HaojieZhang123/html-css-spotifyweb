@@ -482,7 +482,7 @@ header .button:hover{
         flex-direction: column;
     }
 
-    /* bonus */
+    /* bonus 1 */
     .footer-side{
         width: 150px;
     }
@@ -525,6 +525,15 @@ header .button:hover{
         width: calc(100% - 70px);
     }
 
-    
+    /* Bonus 2 */
+    .footer-volume-control{
+        display: none;
+    }
+    .footer-side{
+        width: 200px;
+    }
+    .footer-player{
+        width: calc(100% - 200px);
+    }
 
 }
