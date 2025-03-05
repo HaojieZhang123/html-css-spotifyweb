@@ -662,6 +662,15 @@ header .button:hover{
     color: white;
 }
 
+.song-li:hover{
+    background-color: #2C2F34;
+}
+
+.song-li .li-name:hover, .song-li .li-name:hover span, .song-li .album-name:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 /**************/
 /* RESPONSIVE */
 /**************/
