@@ -481,6 +481,20 @@ header .button:hover{
     .playing-save{
         flex-direction: column;
     }
+
+    /* bonus */
+    .footer-side{
+        width: 150px;
+    }
+    .footer-player{
+        width: calc(100% - 300px);
+    }
+    .list, .output{
+        display: none;
+    }
+    .volume-bar{
+        width: 70%;
+    }
 }
 
 /* xs - 768px */
@@ -510,5 +524,7 @@ header .button:hover{
     .content{
         width: calc(100% - 70px);
     }
+
+    
 
 }
