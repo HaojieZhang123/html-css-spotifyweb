@@ -510,6 +510,7 @@ header .button{
 #list-header{
     width: 100%;
     padding: 10px 0;
+    color: #6C6F74;
 }
 .left-list{
     width: 40%;
@@ -518,6 +519,7 @@ header .button{
     width: 40px;
     text-align: center;
     margin-right: 10px;
+    color: #6C6F74;
 }
 .song{
     min-width: 200px;
@@ -531,7 +533,27 @@ header .button{
 }
 
 /* Playlist list items */
-
+.song-li{
+    padding: 10px 0;
+}
+.li-cover{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.li-cover img{
+    width: 100%;
+    border-radius: 5px;
+}
+.li-name{
+    vertical-align: middle;
+}
+.album-name{
+    color: #6C6F74;
+}
+.duration{
+    color: #6C6F74;
+}
 
 /**********/
 /* COLORS */
