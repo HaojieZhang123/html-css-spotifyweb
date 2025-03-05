@@ -51,6 +51,11 @@ ul{
     list-style-type: none;
 }
 
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
 h2{
     font-size: 30px;
     font-weight: 900;
@@ -103,6 +108,10 @@ a{
 
 .bold{
     font-weight: bold;
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 /* Elements */
@@ -407,6 +416,44 @@ header .button{
     position: relative;
 }
 
+/************************************************/
+/***************** BONUS PAGE *******************/
+/************************************************/
+
+/* Playlist hero banner */
+.playlist-cover{
+    width: 200px;
+    margin-right: 10px;
+}
+.playlist-cover img{
+    width: 100%;
+}
+.playlist-info{
+    width: calc(100% - 300px);
+}
+
+.user{
+    margin-right: 5px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #A3A3A3;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.circle img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
 /**********/
 /* COLORS */
 /**********/
@@ -416,6 +463,10 @@ header .button{
 
 .grey-text{
     color: #6C6F74;
+}
+
+.bg-blue{
+    background-color: #1A375C;
 }
 
 /**************/
