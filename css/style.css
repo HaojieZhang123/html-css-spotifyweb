@@ -172,7 +172,7 @@ a{
 }
 
 .green-line{
-    border-left: 3px solid #ADFF2F;
+    border-left: 3px solid d-flex align-center;
 }
 
 /* playlist */
@@ -447,10 +447,64 @@ header .button{
     border-radius: 50%;
 }
 
+/* Playlist control buttons */
+.play-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3BE477;
+    margin: 0 10px;
+    position: relative;
+    margin-right: 20px;
+}
+.play-button i{
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.add-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #6C6F74;
+    position: relative;
+    margin-right: 20px;
 
+}
+.add-button span{
+    color: #6C6F74;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.more-button{
+    width: 40px;
+    height: 40px;
 
+    position: relative;
+}
+.more-button i{
+    color: #6C6F74;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.order-button{
+    color: #6C6F74;
+}
+.order-button i{
+    margin-left: 5px;
+}
 
 
 
