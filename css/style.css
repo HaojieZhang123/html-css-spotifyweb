@@ -645,7 +645,22 @@ header .button:hover{
     text-decoration-color: #ADFF2F;
 }
 
+/* Bonus 5 Bonus page */
+.user:hover{
+    text-decoration: underline;
+}
 
+.play-button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.add-button:hover, .more-button:hover, .order-button:hover{
+    color: white;
+    border-color: white;
+}
+.add-button:hover span, .more-button:hover i{
+    color: white;
+}
 
 /**************/
 /* RESPONSIVE */
