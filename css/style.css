@@ -421,12 +421,17 @@ header .button{
 /************************************************/
 
 /* Playlist hero banner */
+#playlist-banner{
+    margin-top: 70px;
+    font-weight: 600;
+}
 .playlist-cover{
     width: 200px;
     margin-right: 10px;
 }
 .playlist-cover img{
     width: 100%;
+    box-shadow: 15px 5px 20px rgba(0, 0, 0, 0.5);
 }
 .playlist-info{
     width: calc(100% - 300px);
@@ -473,7 +478,6 @@ header .button{
     border: 2px solid #6C6F74;
     position: relative;
     margin-right: 20px;
-
 }
 .add-button span{
     color: #6C6F74;
@@ -501,6 +505,7 @@ header .button{
 
 .order-button{
     color: #6C6F74;
+    font-size: 20px;
 }
 .order-button i{
     margin-left: 5px;
@@ -532,9 +537,17 @@ header .button{
     text-align: right;
 }
 
+/* list separator */
+.list-separator{
+    margin-bottom: 20px;
+    opacity: 0.1;
+}
+
 /* Playlist list items */
 .song-li{
-    padding: 10px 0;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-radius: 5px;
 }
 .li-cover{
     width: 40px;
@@ -564,6 +577,10 @@ header .button{
 
 .grey-text{
     color: #6C6F74;
+}
+
+.lightgrey-text{
+    color: #C1C1C1;
 }
 
 .bg-blue{
@@ -627,6 +644,8 @@ header .button:hover{
     text-decoration-thickness: 2px;
     text-decoration-color: #ADFF2F;
 }
+
+
 
 /**************/
 /* RESPONSIVE */
