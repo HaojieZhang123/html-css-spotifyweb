@@ -550,3 +550,30 @@ header .button:hover{
     }
 
 }
+
+/* Bonus 4 */
+/* xxs - 576px */
+@media screen and (max-width: 576px){
+    footer{
+        height: 200px;
+        flex-direction: column;
+    }
+    main{
+        height: calc(100vh - 200px);
+    }
+    .footer-side{
+        width: 300px;
+    }
+    .footer-player{
+        width: 100%;
+    }
+    .playing-cover{
+        width: 75px;
+        height: 75px;
+        margin-right: 10px;
+    }
+    .playing-save{
+        flex-direction: row;
+        width: 30%;
+    }
+}
