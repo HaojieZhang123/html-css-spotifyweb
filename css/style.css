@@ -433,6 +433,7 @@ header .button{
 }
 .playlist-cover img{
     width: 100%;
+    border-radius: 5px;
     box-shadow: 15px 5px 20px rgba(0, 0, 0, 0.5);
 }
 .playlist-info{
@@ -455,6 +456,10 @@ header .button{
 }
 
 /* Playlist control buttons */
+.playlist-controls{
+padding-bottom: 20px;
+}
+
 .play-button{
     width: 60px;
     height: 60px;
@@ -653,7 +658,7 @@ header .button:hover{
     text-decoration: underline;
 }
 
-.play-button:hover{
+.play-button:hover, .add-button:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
@@ -672,6 +677,11 @@ header .button:hover{
 .song-li .li-name:hover, .song-li .li-name:hover span, .song-li .album-name:hover{
     color: white;
     text-decoration: underline;
+}
+
+.playlist-cover img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 /**************/
