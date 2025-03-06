@@ -434,13 +434,19 @@ header .button{
     accent-color: #5A5A5A;
 }
 
-.footer-volume-control input[type="range"]::-moz-range-thumb{
-    border: 1px solid #000000;
+/* .footer-volume-control input[type="range"]::-moz-range-thumb{
     height: 10px;
     width: 10px;
-    border-radius: 10px;
-    background: red;
+    background: white;
+    opacity: 0;
 }
+input[type=range]::-moz-range-track {
+    width: 100%;
+    cursor: pointer;
+    background: #3071a9;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+} */
 
 
 /************************************************/
